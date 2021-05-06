@@ -1,0 +1,38 @@
+.topbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f0c2f2;
+  margin-bottom: 80px;
+  display: flex;
+  width: 100%;
+}
+
+.menuItem {
+  margin: 0 6px;
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.logo {
+  height: 36px;
+  margin: 0 6px;
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.cart {
+  height: 36px;
+}

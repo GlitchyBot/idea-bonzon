@@ -1,11 +1,11 @@
 import './App.css';
 import ItemListContainer from "./components/itemlistcontainer/itemlistcontainer"
-// import NavBar from "./components/navbar/navbar";
+import Navbar from "./components/topbar/navbar/navbar";
 
 function App() {
 return (
     <div className="App">
-      {/* <NavBar/> */}
+      <Navbar/>
       <ItemListContainer />
     </div>
   );
