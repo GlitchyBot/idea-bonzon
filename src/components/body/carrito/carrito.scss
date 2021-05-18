@@ -1,0 +1,15 @@
+.itemsCarrito {
+  display: grid;
+  grid-template-columns: 1fr 40px 70px;
+  grid-template-rows: 1fr;
+  gap: 4px 4px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  .iconoPapelera {
+    height: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+}
