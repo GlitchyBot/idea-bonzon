@@ -1,0 +1,52 @@
+.navigation {
+  background-color: #c648dc;
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 12px;
+  align-items: center;
+
+  .navMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+
+    .menuItem {
+      a {
+        font-size: 20px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+        .iconoCarrito {
+          height: 50px;
+        }
+        .brand {
+          height: 50px;
+        }
+      }
+      .dropDownContainer {
+        position: relative;
+        a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .dropDownMenu {
+          position: absolute;
+          background-color: rgb(255, 165, 0);
+          padding: 10px;
+          list-style-type: none;
+          width: 88px;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+            0 3px 6px rgba(0, 0, 0, 0.23);
+        }
+      }
+    }
+  }
+}
