@@ -1,0 +1,32 @@
+.contDetalle {
+  background: white;
+  padding: 10px;
+  position: fixed;
+  width: 600px;
+  top: 40px;
+  left: calc(50% - 300px);
+  bottom: 40px;
+  z-index: 100;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+  .itemDetalle {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 200px;
+    }
+    .button2 {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      background-color: darkorchid;
+    }
+    .closeButton {
+      margin-top: 10px;
+    }
+  }
+}
